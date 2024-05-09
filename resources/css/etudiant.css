@@ -1,0 +1,101 @@
+#etudiant{
+    background-color: #000;
+    font-family: "Rubik Scribble", system-ui;
+        font-weight: 400;
+        font-style: normal;
+}
+
+ .rubik-scribble {
+     font-family: 'Rubik Scribble', sans-serif;
+     font-weight: 400;
+     font-style: normal;
+     /* You can customize additional styles here */
+ }
+
+ .bebas-neue-regular {
+     font-family: "Bebas Neue", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+ }
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    header {
+        background-color: #000;
+        color: #ff6600;
+        /* Yellow text */
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        text-align: center;
+        background-color: #000;
+        margin: 0;
+    }
+
+    nav ul li {
+        display: inline;
+        margin: 0 10px;
+    }
+
+    nav ul li a {
+        color: white;
+        /* Yellow text */
+        text-decoration: none;
+    }
+
+    .container {
+        max-width: 800px;
+        padding: 20px;
+        background-color: black;
+        /* Yellow background */
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+        background-color: #000;
+        color: white;
+        /* Yellow text */
+        text-align: center;
+        padding: 10px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    footer p {
+        margin: 0;
+    }
+
+    .action-btn {
+        background-color: black;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .action-btn:hover {
+        background-color: #ff6600;
+    }
+
+    h1{
+            color: ff6600;
+    }
+    h2
+                {
+                color: black;
+     }

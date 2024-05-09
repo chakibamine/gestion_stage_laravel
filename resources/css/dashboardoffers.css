@@ -1,0 +1,79 @@
+/* Add this CSS to your dashboardoffers.css file */
+  .rubik-scribble {
+      font-family: 'Rubik Scribble', sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      /* You can customize additional styles here */
+  }
+
+  .bebas-neue-regular {
+      font-family: "Bebas Neue", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+  }
+.container {
+    max-width: 95%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ff6600;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+    font-family: "Rubik Scribble", system-ui;
+        font-weight: 400;
+        font-style: normal;
+
+
+}
+
+.title {
+    color: #111;
+    font-family: "Rubik Scribble", system-ui;
+        font-weight: 400;
+        font-style: normal;
+}
+
+.offers-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.offers-table th,
+.offers-table td {
+    border: 1px solid #111;
+    padding: 8px;
+    text-align: left;
+}
+
+.offers-table th {
+    background-color: #ff6600;
+    color: #111;
+}
+
+.offers-table tr:nth-child(even) {
+    background-color: #111;
+    color: #ff6600;
+}
+
+.offers-table tr:nth-child(odd) {
+    background-color: #222;
+    color: #ff6600;
+}
+
+.btn-primary {
+    background-color: #111;
+    color: #ff6600;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+.btn-primary:hover {
+    background-color: #ff6600;
+    color: #111;
+}

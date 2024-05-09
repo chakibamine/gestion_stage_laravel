@@ -1,0 +1,93 @@
+/* entreprise.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    /* Dark background */
+    color: #ffffff;
+    
+    /* White text */
+}
+
+header {
+    /* Dark orange */
+    color: #ffffff;
+    /* White text */
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: #000000;
+    /* Dark background */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    /* White text */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.operations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.operations button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    /* Dark orange */
+    color: #ffffff;
+    /* White text */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.operations button:hover {
+    background-color: #e65800;
+    /* Darker shade of dark orange on hover */
+}
+
+footer {
+    background-color: #000000;
+    /* Dark background */
+    color: #ffffff;
+    /* White text */
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

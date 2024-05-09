@@ -1,0 +1,89 @@
+/* Assuming you have CSS classes btn, btn-primary, and btn-danger from your CSS framework */
+  .rubik-scribble {
+      font-family: 'Rubik Scribble', sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      /* You can customize additional styles here */
+  }
+
+  .bebas-neue-regular {
+      font-family: "Bebas Neue", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+  }
+.container {
+    padding: 20px;
+    color: white;
+    
+       
+}
+
+ .bebas-neue-regular {
+     font-family: "Bebas Neue", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+ }
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: "Rubik Scribble", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        color: #f44336;
+}
+
+td{
+    color: #f44336;
+}
+
+.candidates-table-container {
+    overflow-x: auto;
+}
+
+.candidates-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.candidates-table th,
+.candidates-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.candidates-table th {
+    background-color: #f2f2f2;
+        color: #f44336;
+}
+
+.btn {
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+        background-color: #f44336;
+}
+
+.btn-accept {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-reject {
+    background-color: #f44336;
+    color: white;
+}
+
+.btn-view {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+.table-container {
+    overflow-x: auto;
+}

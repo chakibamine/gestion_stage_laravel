@@ -1,0 +1,5 @@
+
+curl "http://localhost:8000/offers/1/showCandidates" \
+   -X GET \
+
+

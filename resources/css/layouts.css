@@ -1,0 +1,151 @@
+#app{
+    min-height: 90vh;
+ 
+    background-color: rgb(215, 212, 212);
+}
+
+
+ .rubik-scribble {
+     font-family: 'Rubik Scribble', sans-serif;
+     font-weight: 400;
+     font-style: normal;
+     /* You can customize additional styles here */
+ }
+
+ .bebas-neue-regular {
+     font-family: "Bebas Neue", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+ }
+h1,h2,h3,h4,h5{
+    color: #faf3f6;
+
+}
+
+
+
+
+.operations button{
+ 
+    padding: 1%;
+    background-color: rgb(27, 130, 214);
+    color: #ffffff;
+}
+.dropdown-menu {
+    background-color: #343a40;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+    color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background-color: rgb(27, 130, 214);
+    color: #ffffff;
+}
+
+footer,
+.generalfooter {
+    background-color: rgb(27, 130, 214);
+    color: #ffffff;
+    /* Yellow text */
+    text-align: center;
+    padding: 10px 0;
+}
+
+.generalfooter {
+    color: #ffffff;
+    /* Yellow text */
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.generalfooter p {
+    margin: 0;
+}
+
+.btn-orange{
+    background-color: rgb(27, 130, 214);
+    color: #ffffff;
+        border: wheat;
+        padding: 10px;
+        border-radius: 10%;
+        text-decoration: none;
+        margin-left: 10px;
+}
+.btn-orange:hover{
+    background-color: rgb(27, 130, 214);
+    color: #ffffff;
+        border: 1px solid wheat;
+        padding: 1%;
+        border-radius: 10%;
+        text-decoration: none;
+}
+.btn-primary {
+    background-color: rgb(27, 130, 214);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.search-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.search-input-field {
+    width: calc(100% - 40px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.search-submit-button {
+    width: 40px;
+    height: 40px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.additional-fields {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.additional-field {
+    width: calc(33.33% - 20px);
+    margin: 0 10px 10px 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
