@@ -1,9 +1,9 @@
 @extends('layouts.app')
 @vite(['resources/css/etudiant.css', 'resources/js/app.js','resources/css/layouts.css'])
 @section('content')
-<body style="background-color: black;"id="etudiant">
+<body style="background-color: white;"id="etudiant">
 
-<div class="welcome" style="background-color: black;">
+<div class="welcome" style="background-color: white;">
 
     <header>
         <h1>Etudiant Dashboard</h1>
