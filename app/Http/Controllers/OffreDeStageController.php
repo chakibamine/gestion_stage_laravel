@@ -108,7 +108,7 @@ public function statistics()
     $totalPromotions = Promotion::count();
 
     // Return the statistics to a view
-    return view('offers.statistics', [
+    return view('home', [
         'totalOffers' => $totalOffers,
         'totalCandidates' => $totalCandidates,
         'totalEntreprises' => $totalEntreprises,
